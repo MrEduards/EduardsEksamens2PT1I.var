@@ -4,7 +4,7 @@ import javax.swing.JOptionPane;
 
 public class Jautajums {
 
-	public static void main(String[] args) {
+	
 		public String 	Jautajums;
 	    public String[] atbVarianti;
 	    public char pareizaAtb;
@@ -49,7 +49,7 @@ public class Jautajums {
 	                String izveletasAtbildes = JOptionPane.showInputDialog(null, jautajums.getJautajums() + "\n" + varianti[0] + "\n" + varianti[1] + "\n" + varianti[2] + "\n" + varianti[3]);
 
 	                if (izveletasAtbildes == null) {
-	                    // Iziet no testa vai turpināt
+	                    
 	                    int izvele = JOptionPane.showOptionDialog(null, "Vai vēlaties iziet vai turpināt?", "Iziet vai turpināt", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE, null, null, null);
 	                    if (izvele == JOptionPane.YES_OPTION) {
 	                        paradiRezultatu();
