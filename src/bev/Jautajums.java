@@ -5,17 +5,17 @@ import javax.swing.JOptionPane;
 public class Jautajums {
 
 	
-		public String 	Jautajums;
+		public String uzdot;
 	    public String[] atbVarianti;
 	    public char pareizaAtb;
-	    public Jautajums(String Jautajums, String[] atbVarianti, char pareizaAtb) {
-	        this.Jautajums = Jautajums;
+	    public Jautajums(String uzdot, String[] atbVarianti, char pareizaAtb) {
+	        this.uzdot = uzdot;
 	        this.atbVarianti = atbVarianti;
 	        this.pareizaAtb = pareizaAtb;
 	    }
 
 	    public String getJautajums() {
-	        return Jautajums;
+	        return uzdot;
 	    }
 
 	    public String[] getAtbildesVarianti() {
